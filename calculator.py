@@ -7,6 +7,16 @@ One function per operation, in order.
 # First example
 import math
 
+def square_root(a):
+    try:
+        if a < 0: raise ValueError("Input of square root must be non-negative")
+        return math.sqrt(a)
+    except ValueError as e:
+        print(f"Error: {e}")
+
+def hypotenuse(a, b):
+    return math.hypot(a, b)
+
 def add(a, b):
     return a + b
 

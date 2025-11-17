@@ -1,3 +1,6 @@
+# https://github.com/Arav0001/lab10-AS-IA
+# Partner 1: Arav Sonawane
+# Partner 2: Ismail Akdeniz
 import unittest
 from calculator import *
 

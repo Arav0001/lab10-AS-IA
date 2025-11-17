@@ -32,4 +32,4 @@ def subtract(a, b):
 
 def logarithm(a, b):
     if a <= 0 or b <= 0: raise ValueError("Base or input of logarithm has to be positive")
-    return math.log(b, base=a)
+    return math.log(b, a)

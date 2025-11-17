@@ -18,11 +18,8 @@ def div(a, b):
 def exp(a, b): return a**b
 
 def square_root(a):
-    try:
-        if a < 0: raise ValueError("Input of square root must be non-negative")
-        return math.sqrt(a)
-    except ValueError as e:
-        print(f"Error: {e}")
+    if a < 0: raise ValueError("Input of square root must be non-negative")
+    return math.sqrt(a)
 
 def hypotenuse(a, b):
     return math.hypot(a, b)
